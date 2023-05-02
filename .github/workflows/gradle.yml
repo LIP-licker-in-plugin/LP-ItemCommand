@@ -1,4 +1,4 @@
-name: DP-ItemCommand
+name: LP-ItemCommand
 on:
   push:
 jobs:

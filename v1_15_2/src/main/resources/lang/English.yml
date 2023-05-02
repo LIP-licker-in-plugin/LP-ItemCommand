@@ -1,12 +1,12 @@
 Lang: English
 
-cmd_info_L: "/dic L <command> - set left click command"
-cmd_info_R: "/dic R <command> - set right click command"
-cmd_info_F: "/dic F <command> - set shift+F command"
-cmd_info_A: "/dic A <L, R, F> - make that action command to execute as admin"
-cmd_info_D: "/dic D <L, R, F> - delete that action command"
-cmd_info_C: "/dic C - make hold item as consume or not (toggle)"
-cmd_info_CD: "/dic CD <L, R, F> <sec> - set cooldown time (sec)"
+cmd_info_L: "/lic L <command> - set left click command"
+cmd_info_R: "/lic R <command> - set right click command"
+cmd_info_F: "/lic F <command> - set shift+F command"
+cmd_info_A: "/lic A <L, R, F> - make that action command to execute as admin"
+cmd_info_D: "/lic D <L, R, F> - delete that action command"
+cmd_info_C: "/lic C - make hold item as consume or not (toggle)"
+cmd_info_CD: "/lic CD <L, R, F> <sec> - set cooldown time (sec)"
 
 cmd_msg_command_required: "insert command"
 cmd_msg_action_required: "insert action"

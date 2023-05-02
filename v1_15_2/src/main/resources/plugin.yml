@@ -1,9 +1,9 @@
-name: DP-ItemCommand
+name: LP-ItemCommand
 version: 1.0.0.7
-main: com.darksoldier1404.dic.ItemCommand
-authors: [ DEAD_POOLIO_ ]
+main: com.licker2689.lic.ItemCommand
+authors: [ licker2689 ]
 api-version: 1.15
 depend:
-  - DPP-Core
+  - LP-Core
 commands:
-  dic:
+  lic:

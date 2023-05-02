@@ -1,12 +1,12 @@
 Lang: Korean
 
-cmd_info_L: "/dic L <command> - 좌클릭시 실행하는 커맨드를 설정합니다."
-cmd_info_R: "/dic R <command> - 우클릭시 실행하는 커맨드를 설정합니다."
-cmd_info_F: "/dic F <command> - 쉬프트 + F 시 실행하는 커맨드를 설정합니다."
-cmd_info_A: "/dic A <L, R, F> - 해당 액션의 커맨드를 관리자 권한으로 실행되게 만듭니다. (토글)"
-cmd_info_D: "/dic D <L, R, F> - 해당 액션의 커맨드를 삭제합니다."
-cmd_info_C: "/dic C - 사용시 소모되게 만들거나 소모되지 않게 만듭니다."
-cmd_info_CD: "/dic CD <L, R, F> <sec> - 커맨드당 사용 쿨타임을 설정합니다."
+cmd_info_L: "/lic L <command> - 좌클릭시 실행하는 커맨드를 설정합니다."
+cmd_info_R: "/lic R <command> - 우클릭시 실행하는 커맨드를 설정합니다."
+cmd_info_F: "/lic F <command> - 쉬프트 + F 시 실행하는 커맨드를 설정합니다."
+cmd_info_A: "/lic A <L, R, F> - 해당 액션의 커맨드를 관리자 권한으로 실행되게 만듭니다. (토글)"
+cmd_info_D: "/lic D <L, R, F> - 해당 액션의 커맨드를 삭제합니다."
+cmd_info_C: "/lic C - 사용시 소모되게 만들거나 소모되지 않게 만듭니다."
+cmd_info_CD: "/lic CD <L, R, F> <sec> - 커맨드당 사용 쿨타임을 설정합니다."
 
 cmd_msg_command_required: "커맨드를 입력해주세요."
 cmd_msg_action_required: "액션을 입력해주세요."
