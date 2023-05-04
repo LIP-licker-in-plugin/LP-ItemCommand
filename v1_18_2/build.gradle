@@ -1,5 +1,6 @@
 plugins {
     id 'java'
+    id 'maven-publish'
 }
 
 group 'com.licker2689'
@@ -17,11 +18,27 @@ jar {
     destinationDirectory.set(file("$rootDir/jars"))
 }
 
+publishing {
+    publications {
+        mavenJava(MavenPublication) {
+            groupId = 'com.darksoldier1404.dic'
+            artifactId = rootProject.name
+            version = '1.18-' + version
+            artifact "$rootDir/jars/"+ jar.archiveName
+        }
+    }
+    repositories {
+        maven {
+            url "http://dpp.dpnw.site:8081/repository/dpp-releases/"
+            allowInsecureProtocol = true
+        }
+    }
+}
+
 build {
     sourceCompatibility = 17
     targetCompatibility = 17
 }
-
 
 repositories {
     mavenCentral()
@@ -52,12 +69,13 @@ repositories {
         allowInsecureProtocol = true
     }
     maven {
-        url = 'http://licker2689.kro.kr:8081/repository/lip-release/'
-        allowInsecureProtocol = true
+            url "http://feather-s.kr:8083/repository/dpp-releases/"
+            allowInsecureProtocol = true
     }
 }
+
 dependencies {
-    implementation 'org.jetbrains:annotations:20.1.0'
+    implementation 'org.jetbrains:annotations:23.0.0'
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.2'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.2'
     compileOnly 'org.spigotmc:spigot:'+MC_VERSION+'-R0.1-SNAPSHOT'
